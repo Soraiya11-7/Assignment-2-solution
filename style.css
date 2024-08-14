@@ -1,5 +1,75 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    background-color: black;
+    font-family: "Inter", sans-serif;
+}
+/* Home Btn...... */
+.btn-primary-2{
+    border: none;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);  
+    padding: 8px 20px;
+    width: 92px;
+    height: 38px;
+}
+.btn{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Header Section.................................. */
+header{
+    width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    border: 2px solid red;
+    margin-bottom: 100px;
+}
+nav{
+    border: 2px solid green;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+nav h3{
+    border: 1px solid gray;
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-style: italic;
+    height: 43px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 20px;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;  
+}
+
+nav ul li{
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav ul li:last-child{
+    padding: 0px 20px;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+.hamburger{
+    display: none;
 }
