@@ -343,7 +343,7 @@ nav ul a{
     display: flex;
     justify-content: space-between;
     background-color: rgb(40, 39, 39);
-    /* border: 2px solid green; */
+    border: 2px solid green;
     margin-bottom: 100px;
     border-radius: 10px;
 }
@@ -575,6 +575,41 @@ nav ul a{
             margin-bottom: 0px;
             padding-bottom: 0px; 
         }
+
+        .run-content{
+            width: 80%;
+            margin: 0 auto; 
+            /* border: 1px solid red;  */
+            /* margin: 31px 0px;  */
+            margin-top: 31px;
+            margin-bottom: 31px;
+        }
+        .run-content p{
+            width: 100%;
+        }
+        .run-content h3{
+            font-size: 32px;
+        }
+        .run-content>button{
+            width: 100%;
+        }
+        .run-img{
+            width: 80%;
+            height:250px;
+            margin: 0 auto;
+            /* border: 2px solid rgb(52, 15, 66); */
+            padding-right: 0px;
+    
+        }
+        
+        .run-img img{
+            width: 100%;
+            height:90%; 
+            object-fit:none;
+            object-position: 70% 5%;
+            zoom: 35%;
+        }
+       
        
         
     }
