@@ -262,11 +262,9 @@ nav ul a{
 }
 
 .Habit-container h2 , .Habit-container p{
-    /* margin-top: 10px; */
     text-align: center;
 }
 .Habit-container h2{
-    /* color: rgb(255, 255, 255); */
     font-size: 48px;
     font-weight: 900;
     /* line-height: 120%; */
@@ -291,7 +289,7 @@ nav ul a{
     gap: 20px;  
     color: white;
     /* text-align: center; */
-    border: 1px solid green; 
+    /* border: 1px solid green;  */
 }
 
 .habit-content{
@@ -299,10 +297,10 @@ nav ul a{
     flex-direction: column;
     justify-content:space-between;
     align-items: center;
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
 }
 .habit-img{
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
     /* margin-bottom: 30px; */
     display: flex;
     justify-content:center;
@@ -314,8 +312,6 @@ nav ul a{
     width: 95%;
     border: 3px solid rgb(60, 58, 58);
     height: calc(100% - 6px);
-    /* width:calc((100% - 40px )/2); */
-    /* margin-bottom: 30px; */
     border-radius: 50%;
 }
 .habit-content h3{
@@ -329,8 +325,6 @@ nav ul a{
      width: 100%;
 }
 .habit-content p{
-    /* height: 36px; */
-    /* width: 80%; */
     width: 90%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
@@ -470,6 +464,53 @@ nav ul a{
         }
         .v2 h5{
             font-size: 9px;
+        }
+        .Habit-container{
+            margin-top: -70px;
+            position: relative;
+            z-index: 1;
+            background: black;
+            height: auto;
+        }
+        .Habit-container h2{
+            font-size: 28px;
+            margin-bottom: 14px;
+            /* height: 58px; */
+        }
+        .Habit-container p{
+            font-size: 14px;
+            line-height: 24px;
+            width: 90%;
+            margin: 0 auto;
+        }
+        .habit-items{
+            margin-top:58px ;
+            grid-template-columns: 1fr;
+            gap: 20px;  
+            /* border: 1px solid green;  */
+    
+        }
+        .habit-img img{
+            width: 100%;
+        }
+        .habit-content{
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        
+        }
+        .habit-content h3{
+            font-size: 18px;
+            /* margin-top: 30px; */
+             width: 100%;
+        }
+        .habit-content p{
+            width: 70%;
+            font-size: 14px;
+        }
+        .habit-4{
+            margin-bottom: 0px;
+            padding-bottom: 0px; 
         }
        
         
