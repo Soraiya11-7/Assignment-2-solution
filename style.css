@@ -258,7 +258,6 @@ nav ul a{
     margin-bottom: 100px;
     margin-top: 100px;
     color: white;
-    /* text-align: center; */
 }
 
 .Habit-container h2 , .Habit-container p{
@@ -344,7 +343,7 @@ nav ul a{
     display: flex;
     justify-content: space-between;
     background-color: rgb(40, 39, 39);
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-bottom: 100px;
     border-radius: 10px;
 }
