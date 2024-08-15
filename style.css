@@ -730,7 +730,7 @@ select{
             height: auto;
         }
         .Habit-container h2{
-            font-size: 28px;
+            font-size: 24px;
             margin-bottom: 14px;
             /* height: 58px; */
         }
@@ -762,7 +762,7 @@ select{
              width: 100%;
         }
         .habit-content p{
-            width: 70%;
+            width: 71%;
             font-size: 14px;
         }
         .habit-4{
