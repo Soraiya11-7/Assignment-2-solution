@@ -54,7 +54,7 @@ body{
 /* Header Section.................................. */
 header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* position: relative;
     z-index: 1; */
 }
@@ -124,7 +124,7 @@ nav ul a{
 }
 
 .banner-greetings{
-    font-size: 60px;
+    font-size: 54px;
     font-weight: 900;
     /* line-height: 120%; */
     /* height: 282px; */
@@ -254,7 +254,7 @@ nav ul a{
 .Habit-container{
     width: 79%;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 100px;
     margin-top: 100px;
     color: white;
@@ -343,7 +343,7 @@ nav ul a{
     display: flex;
     justify-content: space-between;
     background-color: rgb(40, 39, 39);
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-bottom: 100px;
     border-radius: 10px;
 }
@@ -401,7 +401,7 @@ nav ul a{
 }
 /* BMI Section.................................... */
 .BMI-Calculator{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* margin-bottom: 88px; */
     color: white;
     width: 45%;
@@ -435,8 +435,8 @@ nav ul a{
 }
 .BMI-container{
     /* background-color: aliceblue; */
-    border: 2px solid red;
-    width: 80%;
+    /* border: 2px solid red; */
+    width: 81%;
     margin: 0 auto;
     margin-bottom: 88px;
     color: white;  
@@ -448,12 +448,6 @@ nav ul a{
     justify-content: space-between;
     /* align-items: center; */
 
-}
-.BMI-chart{
-    /* position: relative; */
-    /* padding: 60px; */
-    /* width: 30%; */
-    
 }
 .BMI-chart h2{
     margin: 52px 0px;
@@ -501,7 +495,7 @@ td{
     padding-left: 24px;
 }
 
-.text,.email{
+.text{
     display: inline-block;
 }
 .BMI-form{
@@ -587,11 +581,106 @@ select{
     margin-bottom: 34px;
     background-position: calc(100% - 20px) center;
     padding-right: 30px;
-
 }
 .btn-width{
     width: 42%;
 }
+
+/* Team Section styles........................... */
+.team-container{
+    width: 80%;
+    margin: 0 auto;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-bottom: 100px;
+    color: white;
+    text-align: center;
+    
+}
+.team-container h2{
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 120%;
+    margin-bottom: 14px;
+    
+}
+.team-container p{
+    font-size: 14px;
+    font-weight: 400px;
+    letter-spacing: 0.3;
+    width: 60%;
+    margin-bottom: 58px;
+}
+
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: calc((100% - 40px));
+    /* height:calc((100% - 40px)) ; */
+    
+}
+.team-contents{
+    position: relative;
+    /* border: 1px solid gray; */
+    height: auto;
+    background-color: rgba(0,0,0,0.2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 300px;
+    border-radius: 18px;
+}
+.Tr-1{
+    background-image: url('images/trainer1.png');
+}
+.Tr-2{
+    background-image: url('images/trainer2.png');
+}
+.Tr-3{
+    background-image: url('images/trainer3.png');
+}
+.Tr-4{
+    background-image: url('images/trainer4.png');
+}
+.Tr-5{
+    background-image: url('images/trainer5.png');
+}
+.Tr-6{
+    background-image: url('images/trainer6.png');
+}
+
+.team-contents h3{
+    color:white;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    font-weight: 700;
+    font-size: 22px;
+}
+.team-contents h5{
+    color:rgba(199, 198, 198, 0.7);
+    margin-top: 10px;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+
 
 
 /* Responsive Media Query................................................ */
@@ -599,7 +688,7 @@ select{
 
     @media screen and (max-width: 576px) {
         nav{
-            border: 2px solid green;
+            /* border: 2px solid green; */
             height: 43px;
             margin-top: 52px;
         }
@@ -615,8 +704,6 @@ select{
             justify-content: center;
             align-items: center;
             width: 24px;
-            /* height: 24px; */
-            /* border: 1px solid red; */
         }
         .hamburger i{
             font-size: 24px;
@@ -628,15 +715,15 @@ select{
             height: 0;
             margin:0 auto ;
             /* left: 5px; */
-            border-left: 5.2px solid transparent;
-            border-right: 5.2px solid transparent;
-            border-bottom: 10px solid rgb(250, 250, 249);
+            border-left: 1.2vw solid transparent;
+            border-right: 1.2vw solid transparent;
+            border-bottom: 2.1vw solid rgb(250, 250, 249);
             transform: rotate(90.00deg);
             display: flex;
           }
           .ellipse{
-            width: 25px;
-            height: 25px;
+            width: 6vw;
+            height: 6vw;
             display: flex;
             justify-content:center ;
             align-items: center;
@@ -653,74 +740,90 @@ select{
             justify-content: flex-start;
             align-items: flex-start;
         }
+        .banner{
+            border: 1px dotted red;
+        }
         .banner-content{
             margin-top: 51px;
             width: 100%;
+            /* border: 1px solid red; */
         }
         .banner-greetings{
             width: 80%;
-            font-size: 36px;
+            font-size: 30px;
             margin-bottom: 28px;
         }
+        
         .banner-description{
             width: 80%;
-            font-size: 16px;
+            font-size: 15px;
             margin-bottom: 28px;
         }
         .btn-group{
             width: 100%;
             margin-bottom: 48px;
         }
+       
         .pc1{
-            width: 285px;
+            border: 1px solid red;
+            width: 100%;
             margin: 0 auto;
-            position: relative;
+            height: 420px;
+            /* height: auto; */
+            /* overflow: hidden; */
+            /* position: relative; */
         }
         .pc1 img{
+            border: 1px solid gray;
             width:100% ;
-            /* margin: 0 auto; */
+            margin: 0 auto;
+            /* height: auto; */
+            height: 100%;
+            object-fit:contain;
         }
         .btn-header{
-            font-size: 18px;
+            font-size: 14px;
         }
         .v1{
-            width: 135px;
+            width: 38%;
+            justify-content: space-evenly;
             position: absolute;
             border: 0.76px solid rgba(255, 255, 255, 0.1);
             border-radius: 9.07px;
             backdrop-filter: blur(15.12px);
-            /* left: 22px; */
+            gap: 5px;
             padding: 10px;
-            right: 150px;
-            bottom: 210px;
-            /* top: 200px; */
+            right: 53%;
+            bottom: 42%;
         }
         .video h3{
-        font-size: 16px;
-        /* letter-spacing: 0.23px; */
+        font-size: 4.5vw;
+        /* font-size: calc(1vw + 1.4em); */
         }
         .video h5{
-        font-size: 12px;
-        letter-spacing: 0.01px;
+            font-size: 2.6vw;
+        /* font-size:calc(1vw + 1em); ; */
+        letter-spacing: 0.1px;
         }
         .v2{
-            width: 120px;
+            width: 39%;
             position: absolute;
             border: 0.76px solid rgba(255, 255, 255, 0.1);
             border-radius: 9.07px;
             backdrop-filter: blur(15.12px);
-            top: 50px;
-            left: 153px;
+            top: 10%;
+            left: 55%;
             /* padding-left: 7px; */
-            padding: 5px;
+            padding: 10px;
         }
         .v2 h3{
-            font-size: 24px;
-            font-weight: 900;
+            font-size: 4.8vw;
             letter-spacing: 0.16px;
+            padding-left: 2px;
         }
         .v2 h5{
-            font-size: 9px;
+            font-size: 2.2vw;
+            padding-left: 2px;
         }
         .Habit-container{
             margin-top: -70px;
@@ -730,7 +833,7 @@ select{
             height: auto;
         }
         .Habit-container h2{
-            font-size: 24px;
+            font-size: 22px;
             margin-bottom: 14px;
             /* height: 58px; */
         }
@@ -782,7 +885,7 @@ select{
             width: 100%;
         }
         .run-content h3{
-            font-size: 32px;
+            font-size: 28px;
         }
         .run-content>button{
             width: 100%;
@@ -814,7 +917,7 @@ select{
         
         }
         .BMI-head h1{
-            font-size: 32px;
+            font-size: 30px;
             margin-bottom: 14px;
         }
         .BMI-chart{
@@ -826,42 +929,67 @@ select{
             font-size: 16px;
         }
         table{
-            width: 285px;
-            /* height: 216px; */
-        
+            width:255px;
         }
-       
-        /* #one{
-            padding-left: 18px;
+        #one{
+            padding-left: 14px;
         }
         #two{
-            padding-left: 23px;
-        } */
+            padding-left: 18px;
+        }
+        th{
+            font-size: 15px;
+        }
+        td{
+            font-size: 13px;
+        }
+       
         .BMI-form{
             width: 100%;
-            /* margin: 0 auto; */
-            /* padding: 30px; */
         }
         .BMI-form h3{
             margin-top: 42px;
             font-size: 16px;
             margin-bottom: 14px;
-        
         }
         .form-container{
             margin-bottom: 43px;
         }
-        .w-factor{
-            display: block;
-            width: 100%;
-            margin-bottom: 34px;
-            background-position: calc(100% - 20px) center;
-            padding-right: 30px;
-        
-        }
         .btn-width{
             width: 64%;
         }
+        /* Team members............... */
+        .team-members{
+            grid-template-columns: 1fr; 
+        }
+        .Tr-1, .Tr-4{
+            display: none;
+        }
+        .Tr-3{
+            order: 3;
+        }
+        .Tr-6{
+            order: 4;
+        }
+        .team-container{
+            margin-bottom: 66px;
+        }
+        .team-container h2{
+            font-size: 24px;
+            /* border: 1px dotted red; */
+            width: 80%;
+            margin: 0 auto; 
+            margin-bottom: 14px;
+        }
+        .team-container p{
+            /* border: 1px dotted red; */
+            width: 80%;
+            margin-bottom: 37px;
+        }
+        .team-contents{
+            height: 290px;
+        }
+    
         
        
        
