@@ -61,6 +61,7 @@ header{
 .header-content{
     width: 80%;
     margin: 0 auto;
+    padding-top: 50px;
     /* border: 2px solid red; */
     /* margin-bottom: 100px; */
 }
@@ -70,7 +71,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
 }
 nav h3{
     /* border: 1px solid gray; */
@@ -364,7 +364,7 @@ nav ul a{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    /* line-height: 24px; */
     letter-spacing: 0.3px;
     margin-top: 14px;
     margin-bottom: 34px;
@@ -372,7 +372,7 @@ nav ul a{
 .run-content h3{
     font-size: 48px;
     font-weight: 900;
-    line-height: 120%;
+    /* line-height: 120%; */
     /* height: 116px; */
 }
 .run-img{
@@ -417,13 +417,13 @@ nav ul a{
     color: rgb(255, 255, 255);
     font-size: 48px;
     font-weight: 900;
-    line-height: 120%;
+    /* line-height: 120%; */
 }
 .BMI-head p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    /* line-height: 24px; */
     letter-spacing: 0.3px;
 }
 .triangle{
@@ -453,7 +453,7 @@ nav ul a{
     margin: 52px 0px;
     font-size: 28px;
     font-weight: 900;
-    line-height: 120%;
+    /* line-height: 120%; */
    /* margin-bottom: 10px; */
 }
 table{
@@ -469,7 +469,7 @@ th{
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 500;
-    line-height: 120%;
+    /* line-height: 120%; */
     /* padding-top: 15px ; */
     /* padding-bottom: 14px; */
     height: 48px;
@@ -486,7 +486,7 @@ td{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
-    line-height: 120%;
+    /* line-height: 120%; */
 }
 #one{
     padding-left: 18px;
@@ -507,7 +507,7 @@ td{
     color: rgb(255, 255, 255);
     font-size: 28px;
     font-weight: 900;
-    line-height: 120%;
+    /* line-height: 120%; */
     margin-bottom: 14px;
 
 }
@@ -515,7 +515,7 @@ td{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    /* line-height: 24px; */
     letter-spacing: 0.3px;
     margin-bottom: 34px;
     
@@ -539,7 +539,7 @@ td{
     /* color: rgba(255, 255, 255, 0.6); */
     font-size: 16px;
     font-weight: 400;
-    line-height: 22px;
+    /* line-height: 22px; */
     margin-bottom: 12px;
     /* padding: 5px 0px; */
     border: none;
@@ -559,8 +559,8 @@ select{
     content: '';
     position: absolute;
     z-index: 1;
-    width: 10px;
-    height: 10px;
+    width: 2vw;
+    height: 2vw;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     border-right: 1px solid rgba(255, 255, 255, 0.5);
     left: 93%;
@@ -667,7 +667,7 @@ select{
     top: 80%;
     left: 10%;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 3.5vw;
 }
 .team-contents h5{
     color:rgba(199, 198, 198, 0.7);
@@ -676,7 +676,7 @@ select{
     top: 85%;
     left: 10%;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 2.7;
 
 }
 
@@ -748,13 +748,13 @@ footer{
 .footer-content{
     width: 80%;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 /* Fitness Container............. */
  .fitness-container{
     margin-top: 66px;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -762,7 +762,7 @@ footer{
 } 
 .fitness-content{
     width: 32%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     padding: 10px 0px;
     text-align: left;
 }
@@ -770,10 +770,10 @@ footer{
     color: rgb(230, 83, 60);
     font-size: 70px;
     font-weight: 800;
-    line-height: 120%;
+    /* line-height: 120%; */
    margin-bottom: 20px; 
     margin-top: 20px; 
-    height: 84px;
+    /* height: 84px; */
 }
 .fitness-content p{
 
@@ -791,7 +791,7 @@ footer{
     display: flex;
     justify-content: space-between;
     color: white;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     /* margin-left:30px; */
     /* padding: 10px; */
     
@@ -802,7 +802,7 @@ footer{
     
 }
 .get-started-content h2{
-    height: 39px;
+    /* height: 39px; */
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
@@ -816,7 +816,7 @@ footer{
     color: rgba(255, 255, 255, 0.5);
     font-size: 23px;
     font-weight: 400;
-    line-height: 120%;
+    /* line-height: 120%; */
     margin-bottom: 20px;
     /* padding-left: 2px; */
 
@@ -828,7 +828,7 @@ footer{
     color: rgba(255, 255, 255, 0.5);
     font-size: 23px;
     font-weight: 400;
-    line-height: 120%;
+    /* line-height: 120%; */
     margin-bottom: 0px;
 }
 
@@ -842,9 +842,9 @@ hr{
      color: rgba(255, 255, 255, 0.5);
      font-size: 20px;
      font-weight: 400;
-     line-height: 24px;
+     /* line-height: 24px; */
      letter-spacing: 0.3px;
-     margin-bottom: 35px;
+     padding-bottom: 35px;
 }
 
 
@@ -852,14 +852,15 @@ hr{
 /* For Small Devices */
 
     @media screen and (max-width: 576px) {
+        .header-content{
+            padding-top: 52px;
+        }
         nav{
             /* border: 2px solid green; */
             height: 43px;
-            margin-top: 52px;
+            
         }
-        /* nav{
-            margin-right: 0px;
-        } */
+    
         nav ul{
             display: none;
         }
@@ -915,17 +916,18 @@ hr{
         }
         .banner-greetings{
             width: 80%;
-            font-size: 30px;
+            font-size: 7vw;
             margin-bottom: 28px;
         }
         
         .banner-description{
             width: 80%;
-            font-size: 15px;
+            font-size: 3vw;
             margin-bottom: 28px;
         }
         .btn-group{
             width: 100%;
+            font-size:3.5vw ;
             margin-bottom: 48px;
         }
        
@@ -947,7 +949,7 @@ hr{
             object-fit:contain;
         }
         .btn-header{
-            font-size: 14px;
+            font-size: 3vw;
         }
         .v1{
             width: 38%;
@@ -966,7 +968,7 @@ hr{
         /* font-size: calc(1vw + 1.4em); */
         }
         .video h5{
-            font-size: 2.5vw;
+            font-size: 2.4vw;
         /* font-size:calc(1vw + 1em); ; */
         letter-spacing: 0.1px;
         }
@@ -998,13 +1000,13 @@ hr{
             height: auto;
         }
         .Habit-container h2{
-            font-size: 22px;
+            font-size: 5vw;
             margin-bottom: 14px;
             /* height: 58px; */
         }
         .Habit-container p{
-            font-size: 14px;
-            line-height: 24px;
+            font-size: 3vw;
+            /* line-height: 24px; */
             width: 90%;
             margin: 0 auto;
         }
@@ -1025,13 +1027,13 @@ hr{
         
         }
         .habit-content h3{
-            font-size: 18px;
+            font-size: 3.3vw;
             /* margin-top: 30px; */
              width: 100%;
         }
         .habit-content p{
             width: 71%;
-            font-size: 14px;
+            font-size: 2.7vw;
         }
         .habit-4{
             margin-bottom: 0px;
@@ -1048,12 +1050,14 @@ hr{
         }
         .run-content p{
             width: 100%;
+            font-size: 3vw;
         }
         .run-content h3{
-            font-size: 28px;
+            font-size: 5vw;
         }
         .run-content>button{
             width: 100%;
+            font-size: 3.5vw;
         }
         .run-img{
             width: 80%;
@@ -1063,7 +1067,9 @@ hr{
             padding-right: 0px;
     
         }
-        
+        .club{
+            display: none;
+        }
         .run-img img{
             width: 100%;
             height:90%; 
@@ -1082,31 +1088,38 @@ hr{
         
         }
         .BMI-head h1{
-            font-size: 30px;
+            font-size: 5.5vw;
             margin-bottom: 14px;
         }
+        .BMI-head p{
+            font-size: 3vw;
+        }
         .BMI-chart{
+            /* border: 1px solid red; */
+            width: 100%;
             margin-bottom: 0px;
         }
 
         .BMI-chart h2{
             margin: 34px 0px 23px 0px;
-            font-size: 16px;
+            font-size: 3.6vw;
         }
         table{
-            width:255px;
-        }
-        #one{
-            padding-left: 14px;
-        }
-        #two{
-            padding-left: 18px;
+            width: 80%;
+            /* width:255px; */
         }
         th{
-            font-size: 15px;
+            font-size: 3.5vw;
         }
+        #one{
+            padding-left: 3vw;
+        }
+        #two{
+            padding-left: 3.3vw;
+        }
+       
         td{
-            font-size: 13px;
+            font-size: 3vw;
         }
        
         .BMI-form{
@@ -1114,15 +1127,25 @@ hr{
         }
         .BMI-form h3{
             margin-top: 42px;
-            font-size: 16px;
+            font-size: 4vw;
             margin-bottom: 14px;
+        }
+        .BMI-form p{
+            font-size: 2.8vw;
         }
         .form-container{
             margin-bottom: 43px;
         }
         .btn-width{
             width: 64%;
+            font-size: 3.5vw;
         }
+
+        .form-container input, select{
+            font-size: 3vw;
+          
+        }
+
         /* Team members............... */
         .team-members{
             grid-template-columns: 1fr; 
@@ -1140,7 +1163,7 @@ hr{
             margin-bottom: 66px;
         }
         .team-container h2{
-            font-size: 24px;
+            font-size: 5vw;
             /* border: 1px dotted red; */
             width: 80%;
             margin: 0 auto; 
@@ -1148,6 +1171,7 @@ hr{
         }
         .team-container p{
             /* border: 1px dotted red; */
+            font-size: 3vw;
             width: 80%;
             margin-bottom: 37px;
         }
@@ -1161,55 +1185,59 @@ hr{
         margin-bottom: 66px;
     }
     .success-stories h2{
-        font-size: 26px;
+        font-size: 5vw;
         margin-bottom: 14px;
     }
     .success-stories p{
+        font-size: 3vw;
         width: 90%;
         margin: 0 auto;
         margin-bottom: 50px;
     
     }
     .story h3{
-        font-size: 20px;
+        font-size: 4vw;
         /* letter-spacing: 120%; */
         margin-bottom: 15px;
     }
     .story p{
         width: 85%;
-        font-size: 14px;
+        font-size: 2.8vw;
     }
     
         /* Footer..................... */
         .fitness-container{
             margin-top: 44px;
             margin-bottom: 72px;
+            /* border: 1px solid red; */
         } 
         .fitness-content{
             width: 80%;
-            border: 2px solid green;
+            /* border: 2px solid green; */
         }
         .fitness-content h2{
-            font-size: 56px;
+            font-size: 11vw;
             margin-top: 0px;
+            /* margin-bottom: 1px; */
         }
         .fitness-content p{
            margin-bottom: 30px;
+           font-size: 3vw;
         }
         .get-started{
             width: 100%;
-            border: 2px solid green;   
+            /* border: 2px solid green;    */
         }
         .get-started-content{
-            border: 1px dotted red;
+            /* border: 1px dotted red; */
             width: 50%;
         }
         
         .get-started-content h2{
-            font-size: 22px;
+            font-size: 6vw;
         }
         .get-started-content h5{
-            font-size: 16px;
+            font-size: 4vw;
             margin-bottom: 20px;
         }
         .get-1{
@@ -1217,15 +1245,16 @@ hr{
         }
     
         .last-item{
-           font-size: 18px ;
+           font-size: 4vw;
         }
         
         hr{
             margin-bottom: 41px;
         }
         .footer-content>h5{
-             font-size: 16px;
-             margin-bottom: 57px;
+            text-align: left;
+             font-size: 4vw;
+             padding-bottom: 57px;
         }
        
        
