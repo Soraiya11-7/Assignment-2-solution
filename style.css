@@ -680,6 +680,69 @@ select{
 
 }
 
+/* Success Stories style..................... */
+.success-stories{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    margin-bottom: 100px;
+}
+.success-stories h2{
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 120%;
+    margin-bottom: 14px;
+
+}
+.success-stories p{
+    font-size: 14px;
+    font-weight: 400px;
+    letter-spacing: 0.3;
+    width: 60%;
+    margin: 0 auto;
+    opacity: 0.7;
+    margin-bottom: 58px;
+
+}
+.stories-container{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    color: black;
+    /* background-color:rgb(65, 64, 64); */
+    border-radius: 5px;
+    background-color: white;
+    gap: 20px;
+    padding: 20px;
+    text-align: left;
+    /* padding: 20px; */
+}
+.story{
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px 0px rgba(27, 26, 26, 0.6);
+    margin: 10px;
+    
+}
+.story h3{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 26px;
+    font-weight: 800;
+    /* letter-spacing: 120%; */
+    margin-bottom: 20px;
+}
+.story p{
+    /* color: black; */
+    width: 88%;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    /* opacity: 0.2; */
+}
+
 
 
 
@@ -741,7 +804,7 @@ select{
             align-items: flex-start;
         }
         .banner{
-            border: 1px dotted red;
+            /* border: 1px dotted red; */
         }
         .banner-content{
             margin-top: 51px;
@@ -765,7 +828,7 @@ select{
         }
        
         .pc1{
-            border: 1px solid red;
+            /* border: 1px solid red; */
             width: 100%;
             margin: 0 auto;
             height: 420px;
@@ -774,7 +837,7 @@ select{
             /* position: relative; */
         }
         .pc1 img{
-            border: 1px solid gray;
+            /* border: 1px solid gray; */
             width:100% ;
             margin: 0 auto;
             /* height: auto; */
@@ -801,7 +864,7 @@ select{
         /* font-size: calc(1vw + 1.4em); */
         }
         .video h5{
-            font-size: 2.6vw;
+            font-size: 2.5vw;
         /* font-size:calc(1vw + 1em); ; */
         letter-spacing: 0.1px;
         }
@@ -822,7 +885,7 @@ select{
             padding-left: 2px;
         }
         .v2 h5{
-            font-size: 2.2vw;
+            font-size: 2.1vw;
             padding-left: 2px;
         }
         .Habit-container{
@@ -989,6 +1052,31 @@ select{
         .team-contents{
             height: 290px;
         }
+
+        
+    /* Success story ..... */
+    .success-stories{
+        margin-bottom: 66px;
+    }
+    .success-stories h2{
+        font-size: 26px;
+        margin-bottom: 14px;
+    }
+    .success-stories p{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    
+    }
+    .story h3{
+        font-size: 20px;
+        /* letter-spacing: 120%; */
+        margin-bottom: 15px;
+    }
+    .story p{
+        width: 85%;
+        font-size: 14px;
+    }
     
         
        
