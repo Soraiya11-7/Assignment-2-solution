@@ -686,7 +686,7 @@ select{
     margin: 0 auto;
     color: white;
     text-align: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 100px;
 }
 .success-stories h2{
@@ -731,19 +731,121 @@ select{
     margin-left: 5px;
     font-size: 26px;
     font-weight: 800;
-    /* letter-spacing: 120%; */
     margin-bottom: 20px;
 }
 .story p{
-    /* color: black; */
     width: 88%;
     margin-left: 5px;
     font-size: 16px;
     font-weight: 500;
-    /* opacity: 0.2; */
 }
 
 
+/* Footer section style...................................... */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-content{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+/* Fitness Container............. */
+ .fitness-container{
+    margin-top: 66px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 78px;
+} 
+.fitness-content{
+    width: 32%;
+    border: 2px solid green;
+    padding: 10px 0px;
+    text-align: left;
+}
+.fitness-content h2{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+   margin-bottom: 20px; 
+    margin-top: 20px; 
+    height: 84px;
+}
+.fitness-content p{
+
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 24px; */
+    letter-spacing: 0.3px;
+
+}
+.get-started{
+    width: 48%;
+    /* margin: 0 auto; */
+    /* right: 50% ; */
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border: 2px solid green;
+    /* margin-left:30px; */
+    /* padding: 10px; */
+    
+}
+.get-started-content{
+    /* padding-left: 1px; */
+    text-align: left;
+    
+}
+.get-started-content h2{
+    height: 39px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 39px;
+    /* padding-right: 10px; */
+    /* padding-right: 2px; */
+    /* line-height: 120%; */
+    /* text-align: left; */
+}
+.get-started-content h5{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 20px;
+    /* padding-left: 2px; */
+
+}
+.get-2 h2{
+    padding-right: 2px;  
+}
+.last-item{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 0px;
+}
+
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 36px;
+}
+/* Footer style....................... */
+.footer-content>h5{
+     text-align: center;
+     color: rgba(255, 255, 255, 0.5);
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0.3px;
+     margin-bottom: 35px;
+}
 
 
 /* Responsive Media Query................................................ */
@@ -1078,7 +1180,53 @@ select{
         font-size: 14px;
     }
     
+        /* Footer..................... */
+        .fitness-container{
+            margin-top: 44px;
+            margin-bottom: 72px;
+        } 
+        .fitness-content{
+            width: 80%;
+            border: 2px solid green;
+        }
+        .fitness-content h2{
+            font-size: 56px;
+            margin-top: 0px;
+        }
+        .fitness-content p{
+           margin-bottom: 30px;
+        }
+        .get-started{
+            width: 100%;
+            border: 2px solid green;   
+        }
+        .get-started-content{
+            border: 1px dotted red;
+            width: 50%;
+        }
         
+        .get-started-content h2{
+            font-size: 22px;
+        }
+        .get-started-content h5{
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .get-1{
+            margin-bottom: 20px;
+        }
+    
+        .last-item{
+           font-size: 18px ;
+        }
+        
+        hr{
+            margin-bottom: 41px;
+        }
+        .footer-content>h5{
+             font-size: 16px;
+             margin-bottom: 57px;
+        }
        
        
         
