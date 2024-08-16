@@ -116,20 +116,22 @@ nav ul a{
 
 .banner-content{
     /* width: 520px; */
-    width: 46%;
+    width: 47%;
     color: white;
     margin-top: 96px;
+    /* border: 1px solid rebeccapurple; */
     /* margin: 96px 0px 76px 0px; */
 
 }
 
 .banner-greetings{
-    font-size: 54px;
+    font-size: 56px;
     font-weight: 900;
     /* line-height: 120%; */
     /* height: 282px; */
     /* border: 1px solid green; */
     padding-top:0px ;
+    margin-bottom: 5px;
 }
 .banner-description{
     color: rgba(255, 255, 255, 0.5);
@@ -559,8 +561,8 @@ select{
     content: '';
     position: absolute;
     z-index: 1;
-    width: 2vw;
-    height: 2vw;
+    width: 10px;
+    height: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     border-right: 1px solid rgba(255, 255, 255, 0.5);
     left: 93%;
@@ -667,7 +669,7 @@ select{
     top: 80%;
     left: 10%;
     font-weight: 700;
-    font-size: 3.5vw;
+    font-size: 22px;
 }
 .team-contents h5{
     color:rgba(199, 198, 198, 0.7);
@@ -676,7 +678,7 @@ select{
     top: 85%;
     left: 10%;
     font-weight: 400;
-    font-size: 2.7;
+    font-size: 14px;
 
 }
 
@@ -753,7 +755,7 @@ footer{
 
 /* Fitness Container............. */
  .fitness-container{
-    margin-top: 66px;
+    padding-top: 66px;
     /* border: 2px solid gray; */
     display: flex;
     justify-content: space-between;
@@ -1140,6 +1142,10 @@ hr{
             width: 64%;
             font-size: 3.5vw;
         }
+        .factor::after{
+            width: 2vw;
+            height: 2vw;
+        }
 
         .form-container input, select{
             font-size: 3vw;
@@ -1177,6 +1183,12 @@ hr{
         }
         .team-contents{
             height: 290px;
+        }
+        .team-contents h3{
+            font-size: 3.5vw;
+        }
+        .team-contents h5{
+            font-size: 2.7vw;
         }
 
         
